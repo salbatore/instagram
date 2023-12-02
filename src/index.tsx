@@ -1,18 +1,14 @@
 import React from 'react';
-import { View } from 'react-native';
+import { SafeAreaView, View } from 'react-native';
 
+import { IndexStyles } from './index.styles';
 import { HomeScene } from './scenes/home/home.scene';
 
 
 const App = () => (
-  <View style={{
-    height: 600,
-    width: 300,
-    backgroundColor: 'pink'
-  }}
-  >
+  <SafeAreaView style={IndexStyles.canvas}>
     <HomeScene />
-  </View>
+  </SafeAreaView>
 );
 
 export default App;

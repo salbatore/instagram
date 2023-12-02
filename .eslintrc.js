@@ -60,7 +60,7 @@ module.exports = {
     'function-paren-newline': 'off',
     'global-require': 'off',
     'handle-callback-err': 'off',
-    indent: 'off',
+
     'implicit-arrow-linebreak': 'off',
     'import/exports-last': 'off',
     'import/first': 'error',
@@ -153,6 +153,12 @@ module.exports = {
     'spaced-comment': 'error',
     'vars-on-top': 'off',
     yoda: 'error',
+    // disable react/jsx-indent
+    'react/jsx-indent': 'off',
+    // disable react/jsx-closing-tag-location
+    'react/jsx-closing-tag-location': 'off',
+    // disable react/jsx-indent-props
+    'react/jsx-indent-props': 'off',
   },
   settings: {
     'import/resolver': {
